@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InternShala</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://kit.fontawesome.com/6877246feb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="hemburger"><img src="img/hamburger-menu-key-new.svg" alt=""></div>
+        <div class="navbar">
+            <div class="logo"><img src="img/new_internshala_logo.svg" alt=""></div>
+           
+            <ul class="menuslist">
+                <li><a class="menulink" href="#">Internships <i class="fas fa-caret-down"></i><i class="fas fa-caret-up"></i></a>
+                    <span class="dropdown">
+                        <div class="drpsec1">
+                            <div class="drpclmn">
+                                <h4>Location</h4>
+                                <a href="#" class="drplinks">Work from Home</a>
+                                <a href="#" class="drplinks">Internship in Bangalore</a>
+                                <a href="#" class="drplinks">Internship in Delhi</a>
+                                <a href="#" class="drplinks">Internship in Hyderabad</a>
+                                <a href="#" class="drplinks">Internship in Mumbai</a>
+                                <a href="#" class="drplinks">Internship in Chennai</a>
+                                <a href="#" class="drplinks">Internship in Pune</a>
+                                <a href="#" class="drplinks">Internship in Kolkata</a>
+                                <a href="#" class="drplinks">Internship in Jaipur</a>
+                                <a href="#" class="drplinks">International Internship</a>
+                            </div>
+                            <div class="drpclmn">
+                                <h4>Profile</h4>
+                                <a href="#" class="drplinks">Computer Science Internship</a>
+                                <a href="#" class="drplinks">Marketing Internship</a>
+                                <a href="#" class="drplinks">Finance Internship</a>
+                                <a href="#" class="drplinks">Mechanical Internship</a>
+                                <a href="#" class="drplinks">HR Internship</a>
+                                <a href="#" class="drplinks">Digital Marketing Internship</a>
+                                <a href="#" class="drplinks">Electronics Internship</a>
+                                <a href="#" class="drplinks"> Content Writing Internship</a>
+                                <a href="#" class="drplinks">Civil Internship</a>
+                                <a href="#" class="drplinks">Campus Ambassador Program</a>
+                            </div>
+                            <div class="drpclmn">
+                                <h4>Category</h4>
+                                <a href="#" class="drplinks">Engineering Internship</a>
+                                <a href="#" class="drplinks">MBA Internship</a>
+                                <a href="#" class="drplinks">Part-Time Jobs/Internship</a>
+                                <a href="#" class="drplinks">Graphic Design Internship</a>
+                                <a href="#" class="drplinks">Humanities Internship</a>
+                                <a href="#" class="drplinks">Science Internship</a>
+                                <a href="#" class="drplinks">Law Internship</a>
+                                <a href="#" class="drplinks"> Architecture Internship</a>
+                                <a href="#" class="drplinks">Internship with Job Offer</a>
+                                <a href="#" class="drplinks">Internships for Women</a>
+                            </div>
+                        </div>
+                        <div class="drpsec2">
+                            <a href="#">View all internships <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </span>
+                </li>
+                <li><a class="menulink" href="#">Online Tranings <span>75% OFF</span> <i class="fas fa-caret-down"></i><i class="fas fa-caret-up"></i></a>
+                    <span class="dropdown" id="jobdrpdwn">
+                            <div class="drpclm">
+                                <a href="#" class="drplinks">Programming</a>
+                                <a href="#" class="drplinks">Business & Management</a>
+                                <a href="#" class="drplinks">Core Engineering</a>
+                                <a href="#" class="drplinks">Data Science</a>
+                                <a href="#" class="drplinks">Design</a>
+                                <a href="#" class="drplinks">Creative Arts</a>
+                                <a href="#" class="drplinks">Language</a>
+                                <a href="#" class="drplinks">Career Development</a>
+                                <a href="#" class="drplinks">Architecture</a>
+                                <a href="#" class="drplinks">Specializations</a>
+                            </div>
+                            <div class="drpclm">
+                                <a href="#" class="drplinks">Graphic Design</a>
+                                <a href="#" class="drplinks">UI/UX Design</a>
+                                <a href="#" class="drplinks">Video Editing</a>
+                                <a href="#" class="drplinks">Animation</a>
+                                <a href="#" class="drplinks">WordPress</a>
+                                <a href="#" class="drplinks">Digital Art</a>
+                                <a href="#" class="drplinks">Color Theory</a>
+                            </div>
+                    </span>
+                </li>
+                <li  id="fresher_link"><a class="menulink" href="#">Freshers Jobs</a></li>
+                <li id="loginlink"><a class="menulink" href="#">Login</a></li>
+                <li id="register_menu"><a class="menulink" href="#">Register    <i class="fas fa-caret-down"></i><i class="fas fa-caret-up"></i></a>
+                    <span class="dropdown" id="Register-drp">
+                            <a href="#" class="drplinks">As a Student</a>
+                            <a href="#" class="drplinks">As an Employer</a>
+                            
+                </span>
+                </li>
+            </ul>
+            
+        </div>
+    </header>
+    <div class="searchbardiv">
+        <div class="searchbar">
+            <input type="text" name="Search" id="searchbar" placeholder="What are you looking for?">
+            <button class="searchbtn"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+
+
+
+    <div class="carousel" data-flickity='{ "wrapAround": true ,"autoPlay": true}'>
+        <div class="carousel-cell">
+            <div  id="cell1">
+                <h3>Introducing</h3>
+                <h1>Fresher Jobs <span>New</span></h1>
+                <h3>Apply to premium fresher jobs for free</h3>
+                <h4 style="margin-top: 16px;"><img src="img/check_box_white.svg" alt="">Minimum CTC 3 LPA</h4>
+                <h4><img src="img/check_box_white.svg" alt="">100% Verified jobs</h4>
+                <p>View Jobs</p>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div id="cell2">
+                <h2>Get ahead. Get an Internship!</h2>
+                <h4 style="margin-top: 20px;"><img src="img/check_box_dark.svg" alt=""> 10,000+ internships with stipend</h4>
+                <h4><img src="img/check_box_dark.svg" alt=""> 100% Verified</h4>
+                <h4><img src="img/check_box_dark.svg" alt=""> Apply for free</h4>
+                <p>View internships</p>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div id="cell3"></div>
+        </div>
+    </div>
+
+    <div class="center">
+        <h2>Internships</h2>
+        <p>Apply to 10,000+ internships for free
+           <a href="#"> View all internships <i class="fas fa-arrow-right"></i></a>
+        </p>
+        <h4>Popular cities</h4>
+        <div class="carddiv">
+            <a href="#">
+                <img src="img/work_from_home.svg" alt="">
+                <p class="text">Work from home</p>
+            </a>
+            <a href="#">
+                <img src="img/delhi_ncr.svg" alt="">
+                <p class="text">Delhi/NCR</p>
+            </a>
+            <a href="#">
+                <img src="img/bangalore.svg" alt="">
+                <p class="text">Bangalore</p>
+            </a>
+            <a href="#">
+                <img src="img/mumbai.svg" alt="">
+                <p class="text">Mumbai</p>
+            </a>
+            <a href="#">
+                <img src="img/hyderabad.svg" alt="">
+                <p class="text">Hyderabad</p>
+            </a>
+            <a href="#">
+                <img src="img/chennai.svg" alt="">
+                <p class="text">Chennai</p>
+            </a>
+            <a href="#">
+                <img src="img/kolkata.svg" alt="">
+                <p class="text">Kolkata</p>
+            </a>
+            <a href="#">
+                <img src="img/international.svg" alt="">
+                <p class="text">International</p>
+            </a>
+        </div>
+
+
+
+        <h4>Popular categories</h4>
+        <div class="carddiv">
+            <a href="#">
+                <img src="img/part_time.svg" alt="">
+                <p class="text">Part-time</p>
+            </a>
+            <a href="#">
+                <img src="img/engineering.svg" alt="">
+                <p class="text">Engineering</p>
+            </a>
+            <a href="#">
+                <img src="img/ngo.svg" alt="">
+                <p class="text">NGO</p>
+            </a>
+            <a href="#">
+                <img src="img/mba.svg" alt="">
+                <p class="text">MBA</p>
+            </a>
+            <a href="#">
+                <img src="img/design.svg" alt="">
+                <p class="text">Design</p>
+            </a>
+            <a href="#">
+                <img src="img/science.svg" alt="">
+                <p class="text">Science</p>
+            </a>
+            <a href="#">
+                <img src="img/media.svg" alt="">
+                <p class="text">Media</p>
+            </a>
+            <a href="#">
+                <img src="img/humanities.svg" alt="">
+                <p class="text">Humanities</p>
+            </a>
+        </div>
+
+
+
+
+        <h2>Internshala Trainings  <img src="img/tag75-1920.png" alt=""></h2>
+        <p>Learn new-age skills on the go
+           <a href="#"> View all trainings <i class="fas fa-arrow-right"></i></a>
+        </p>
+        <div class="carddiv">
+            <a href="#">
+                <img src="img/programming_with_python.svg" alt="">
+                <p class="text">programming <br> with python</p>
+            </a>
+            <a href="#">
+                <img src="img/digital_marketing.svg" alt="">
+                <p class="text">Digital <br> Marketing</p>
+            </a>
+            <a href="#">
+                <img src="img/web_development.svg" alt="">
+                <p class="text">Web <br> Development</p>
+            </a>
+            <a href="#">
+                <img src="img/machine_learning.svg" alt="">
+                <p class="text">Machine <br> Learning</p>
+            </a>
+            <a href="#">
+                <img src="img/advanced_excel.svg" alt="">
+                <p class="text">Advanced Excel</p>
+            </a>
+            <a href="#">
+                <img src="img/ethical_hacking.svg" alt="">
+                <p class="text">Ethical Hacking</p>
+            </a>
+            <a href="#">
+                <img src="img/autocad.svg" alt="">
+                <p class="text">AutoCAD</p>
+            </a>
+            <a href="#">
+                <img src="img/creative_writing.svg" alt="">
+                <p class="text">Creative writing</p>
+            </a>
+        </div>
+        <h6>& 52 More...</h6>
+
+
+
+
+
+        <h2>Fresher Jobs <span>New</span></h2>
+        <p>Premium fresher jobs on your fingertips
+           <a href="#"> View all Jobs <i class="fas fa-arrow-right"></i></a>
+        </p>
+        <div class="jobcarddiv">
+            <a href="#">
+                <img src="img/ctc.svg" alt="">
+                <p class="text">Minimum CTC of 3 LPA</p>
+            </a>
+            <a href="#">
+                <img src="img/dream.svg" alt="">
+                <p class="text">Dream companies</p>
+            </a>
+            <a href="#">
+                <img src="img/verified.svg" alt="">
+                <p class="text">100% verified jobs</p>
+            </a>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <div class="center foot">
+            <div class="footersec1">
+                <div class="quicklinks">
+                    <h5>Internship by places</h5>
+                    <a href="#">Internship in India</a>
+                    <a href="#">Internship in Delhi</a>
+                    <a href="#">Internship in Bangalore</a>
+                    <a href="#">Internship in Hyderabad</a>
+                    <a href="#">Internship in Mumbai</a>
+                    <a href="#">Internship in Chennai</a>
+                    <a href="#">Internship in Gurgaon</a>
+                    <a href="#">Internship in Kolkata</a>
+                    <a href="#">Virtual Internship</a>
+                </div>
+                <div class="quicklinks">
+                    <h5>Internship by stream</h5>
+                    <a href="#">Computer Science Internship</a>
+                    <a href="#">Electronic Internship</a>
+                    <a href="#">Mechanical Internship</a>
+                    <a href="#">Civil Internship</a>
+                    <a href="#">Marketing Internship</a>
+                    <a href="#">Chemical Internship</a>
+                    <a href="#">Finance Internship</a>
+                    <a href="#">Summer Reasearch Followship</a>
+                    <a href="#">Campus Ambassador Program</a>
+                </div>
+                <div class="quicklinks">
+                    <h5>Online Trainings <span>75% OFF</span></h5>
+                    <a href="#">Programming with Python</a>
+                    <a href="#">Digital Marketing</a>
+                    <a href="#">Web Development</a>
+                    <a href="#">Machine Learning</a>
+                    <a href="#">Advanced Excel</a>
+                    <a href="#">Ethical Hacking</a>
+                    <a href="#">AutoCAD</a>
+                    <a href="#">Creative writing</a>
+                    <a href="#">Data Science</a>
+                </div>
+                <div class="quicklinks">
+                    <h5>About Internshala</h5>
+                    <a href="#">About Us</a>
+                    <a href="#">We're hiring</a>
+                    <a href="#">Hire interns for your company</a>
+                    <a href="#">Team diary</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Our Services</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Contact Us</a></div>
+            </div>
+            <div class="footersec2">
+                <div class="footerlinks">
+                    <div class="googleplay"><i class="fab fa-google-play"></i> Get Android App</div>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div class="copyright"><i class="far fa-copyright"></i> Copyright 2021 Internshala Clone by Rohit Pratap</div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
